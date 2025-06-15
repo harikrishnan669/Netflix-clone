@@ -8,7 +8,7 @@ export default function Footer(){
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-sm">
                     <ul className="space-y-2">
-                        <li><a href="#" className="hover:underline text-red">FAQ</a></li>
+                        <li><a href="#" className="hover:underline ">FAQ</a></li>
                         <li><a href="#" className="hover:underline">Investor Relations</a></li>
                         <li><a href="#" className="hover:underline">Privacy</a></li>
                         <li><a href="#" className="hover:underline">Speed Test</a></li>
