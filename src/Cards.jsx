@@ -12,6 +12,13 @@ const movies = [
     { title: "Wolf", image: "/wolf.jpg" },
     { title: "Tsunami", image: "/Tsunami.jpg" },
     { title: "Kasargold", image: "/kasargold.jpg" },
+    { title: "Ponman", image: "/pm.jpg" },
+    { title: "Painkili", image: "/painkili.jpg" },
+    { title: "Supersharanya", image: "/ss.jpg" },
+    { title: "Falimy", image: "/falimy.jpg" },
+    { title: "Nelavelicham", image: "/nelavelicham.jpg" },
+    { title: "Kalki", image: "/Kaliki.jpg" },
+
 ];
 export default function MovieContainer() {
     const scrollRef = useRef(null);
