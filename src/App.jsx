@@ -4,6 +4,7 @@ import "./index.css"
 import Hero from "./Hero.jsx";
 import MovieContainer from "./Cards.jsx";
 import MoreReasons from "./Morereason.jsx";
+import Footer from "./Footer.jsx";
 function App() {
     return (
         <>
@@ -11,6 +12,7 @@ function App() {
             <Hero/>
             <MovieContainer/>
             <MoreReasons />
+            <Footer/>
         </>
     )
 }

@@ -8,8 +8,7 @@ export default function Hero() {
                 alt="Background"
                 className="fixed top-0 left-0 w-screen h-screen object-cover -z-10 pointer-events-none select-none brightness-[0.4] sepia-[3%]"
             />
-            <div
-                className="relative text-white h-screen flex flex-col justify-center items-center text-center text-[25px]">
+            <div className="relative text-white h-screen flex flex-col justify-center items-center text-center text-[25px]">
                 <h1>Unlimited movies, TV shows and more</h1>
                 <p>Starts at ₹149. Cancel at any time.</p>
                 <p>Ready to watch? Enter your email to create or restart your membership.</p>
