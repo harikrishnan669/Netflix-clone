@@ -17,7 +17,7 @@ const movies = [
     { title: "Supersharanya", image: "/ss.jpg" },
     { title: "Falimy", image: "/falimy.jpg" },
     { title: "Nelavelicham", image: "/nelavelicham.jpg" },
-    { title: "Kalki", image: "/Kaliki.jpg" },
+    { title: "Kalki", image: "/kalki.jpg" },
 
 ];
 export default function MovieContainer() {
