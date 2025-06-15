@@ -1,4 +1,5 @@
 import React from "react";
+import {ChevronDown} from "lucide-react";
 
 export default function Hero() {
     return (
@@ -8,7 +9,8 @@ export default function Hero() {
                 alt="Background"
                 className="fixed top-0 left-0 w-screen h-screen object-cover -z-10 pointer-events-none select-none brightness-[0.4] sepia-[3%]"
             />
-            <div className="relative text-white h-screen flex flex-col justify-center items-center text-center text-[25px]">
+            <div
+                className="relative text-white h-screen flex flex-col justify-center items-center text-center text-[25px]">
                 <h1>Unlimited movies, TV shows and more</h1>
                 <p>Starts at ₹149. Cancel at any time.</p>
                 <p>Ready to watch? Enter your email to create or restart your membership.</p>
@@ -25,6 +27,11 @@ export default function Hero() {
                             Get Started
                         </button>
                     </div>
+                </div>
+                <div
+                    className="absolute bottom-5 left-1/2 transform -translate-x-1/2 z-40 text-3xl rounded-full p-1 cursor-pointer sm:text-4xl md:text-5xl animate-bounce"
+                >
+                    <ChevronDown size={50}/>
                 </div>
             </div>
         </>
