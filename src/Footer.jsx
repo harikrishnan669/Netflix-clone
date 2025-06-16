@@ -2,11 +2,11 @@ import React from 'react';
 
 export default function Footer(){
     return (
-        <footer className="bg-white text-black-400 py-2">
+        <footer className="bg-gradient-to-t from-[#0d0d0d] via-[#2b2b2b] to-[#3c0d0d] text-black-400 py-2">
             <div className="max-w-6xl mx-auto px-6">
-                <p className="mb-6 text-sm">Questions? Call <span className="underline">000-800-919-1694</span></p>
+                <p className="mb-6 text-sm text-white">Questions? Call <span className="underline">000-800-919-1694</span></p>
 
-                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-sm">
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-sm text-white">
                     <ul className="space-y-2">
                         <li><a href="#" className="hover:underline ">FAQ</a></li>
                         <li><a href="#" className="hover:underline">Investor Relations</a></li>
@@ -39,7 +39,7 @@ export default function Footer(){
                     </select>
                 </div>
 
-                <p className="text-sm mt-4">Netflix India</p>
+                <p className="text-sm mt-4 text-white text-center">Netflix Clone (Made by Harikrishnan)</p>
             </div>
         </footer>
     );
