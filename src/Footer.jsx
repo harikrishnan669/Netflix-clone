@@ -2,9 +2,24 @@ import React from 'react';
 
 export default function Footer(){
     return (
-        <footer className="bg-gradient-to-t from-[#0a0a0a] via-[#1a1a1a] to-[#262626] text-black-400 py-2">
+        <footer className="bg-gradient-to-t from-[#000000] via-[#000000] to-[#001f3f] text-black-400 py-2">
+            <div className="text-white px-6 py-4 mt-5 rounded-lg w-[80%] max-w-[500px] mx-auto">
+                <div className="flex mt-0.5 mb-0.5">
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        className="flex-1 bg-white bg-opacity-10 border border-white/30 px-4 py-2 rounded-l-md text-black text-[15px] h-[50px] focus:outline-none"
+                    />
+                    <button
+                        className="px-5 h-[50px] bg-[#e50914] text-white text-[16px] font-medium rounded-r-md cursor-pointer hover:bg-red-700 transition"
+                    >
+                        Get Started
+                    </button>
+                </div>
+            </div>
             <div className="max-w-6xl mx-auto px-6">
-                <p className="mb-6 text-sm text-white">Questions? Call <span className="underline">000-800-919-1694</span></p>
+                <p className="mb-6 text-sm text-white">Questions? Call <span
+                    className="underline">000-800-919-1694</span></p>
 
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 text-sm text-white">
                     <ul className="space-y-2">
