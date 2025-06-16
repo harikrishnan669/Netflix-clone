@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer(){
     return (
-        <footer className="bg-gradient-to-t from-[#0d0d0d] via-[#2b2b2b] to-[#3c0d0d] text-black-400 py-2">
+        <footer className="bg-gradient-to-t from-[#0a0a0a] via-[#1a1a1a] to-[#262626] text-black-400 py-2">
             <div className="max-w-6xl mx-auto px-6">
                 <p className="mb-6 text-sm text-white">Questions? Call <span className="underline">000-800-919-1694</span></p>
 
