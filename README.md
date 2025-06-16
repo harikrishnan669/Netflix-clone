@@ -16,9 +16,6 @@ This is a simple **Netflix Clone** built using **React**, **Tailwind CSS**, and 
 - Tailwind CSS
 - Heroicons
 
- https://github.com/user-attachments/assets/a79807a2-b810-4af8-a92d-db9451f364d7
-
-
 ## 📦 Getting Started
 
 ### 1. Clone the repository
